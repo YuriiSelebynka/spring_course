@@ -23,7 +23,7 @@ public class NewLoggingAspect {
         System.out.println("aroundReturnBookLoggingAdvice: в бібліотеку " +
                 "успішно повернули книгу");
         System.out.println("aroundReturnBookLoggingAdvice: метод returnBook " +
-                "виконав роботу за " + (end-begin) + " мілісекунд");
+                "виконав роботу за " + (end - begin) + " мілісекунд");
         return targetMethodResult;
     }
 }
